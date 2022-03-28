@@ -49,7 +49,6 @@ body{
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
-	cursor: pointer;
 }
 .logo span{
 	color: var(--accent-color);
@@ -64,7 +63,9 @@ body{
 .contacts-link:focus{
 	color: var(--accent-color);
 }
-
+.current{
+	color: var(--accent-color);
+}
 /* introduction */
 .introduction{
 	background-color: var(--exyra-bg-color);
@@ -80,6 +81,7 @@ body{
 .button{
 	color: var(--primary-bg-color);
 	background-color: var(--accent-color);
+	cursor: pointer;
 }
 
 /* company */
@@ -118,4 +120,34 @@ footer{
 .address-link:focus,
 .address-link:hover{
 	color: var(--primary-bg-color);
+}
+
+/* portgolio */
+
+.btn-nav{
+	color: var(--title-text-color);
+	background-color:rgba(245, 244, 250, 1);
+	font-weight: 500;
+	font-size: 16px;
+	font-weight: 1.63;
+	cursor: pointer;
+}
+
+.btn-nav:hover,
+.btn-nav:focus{
+	background-color: var(--accent-color);
+	color: var(--primary-bg-color);
+}
+
+.portfolio-subtitle{
+	color: var(--title-text-color);
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 2;
+}
+
+.portfolio-text{
+	color: var(--primary-text-color);
+	font-size: 16px;
+	line-height: 1.88;
 }
