@@ -18,6 +18,7 @@ body{
 	color: var(--primary-text-color);
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
+	letter-spacing: 0.03em;
 }
 
 /* title */
@@ -56,6 +57,7 @@ body{
 .site-link,
 .contacts-link{
 	color: var(--title-text-color);
+	letter-spacing: 0.02em;
 }
 .contacts-link:hover,
 .site-link:hover,
@@ -69,6 +71,7 @@ body{
 /* introduction */
 .introduction{
 	background-color: var(--exyra-bg-color);
+	letter-spacing: 0.06em;
 }
 .introduction-title{
 	color: var(--primary-bg-color);
@@ -82,6 +85,7 @@ body{
 	color: var(--primary-bg-color);
 	background-color: var(--accent-color);
 	cursor: pointer;
+	letter-spacing: 0.06em;
 }
 
 /* company */
@@ -144,6 +148,7 @@ footer{
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 2;
+	letter-spacing: 0.06em;
 }
 
 .portfolio-text{
