@@ -84,8 +84,9 @@ body{
 .button{
 	color: var(--primary-bg-color);
 	background-color: var(--accent-color);
-	cursor: pointer;
+	font-family: inherit;
 	letter-spacing: 0.06em;
+	cursor: pointer;
 }
 
 /* company */
@@ -131,6 +132,7 @@ footer{
 .btn-nav{
 	color: var(--title-text-color);
 	background-color:rgba(245, 244, 250, 1);
+	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
 	font-weight: 1.63;
