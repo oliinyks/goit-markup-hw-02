@@ -126,9 +126,12 @@ footer{
 	font-style: normal;
 	line-height: 1.71;
 }
+.link-white{
+	color: var(--primary-bg-color);
+}
 .address-link:focus,
 .address-link:hover{
-	color: var(--primary-bg-color);
+	color: var(--accent-color);
 }
 
 /* portgolio */
