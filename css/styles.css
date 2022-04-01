@@ -6,13 +6,23 @@
 	--exyra-bg-color:rgba(47, 48, 58, 1)
 }
 
+
 ul{
 	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 a{
 	text-decoration: none;
 }
-  
+
+h1,
+h2,
+h3,
+p{
+	margin-top: 0;
+}
+
 body{
 	background-color:var(--primary-bg-color);
 	color: var(--primary-text-color);
@@ -20,9 +30,21 @@ body{
 	font-size: 14px;
 	letter-spacing: 0.03em;
 }
+.container{
+	width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+section{
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
 
 /* title */
 .title{
+	margin-top: 0;
+	margin-bottom: 50px;
 	color:var(--title-text-color);
 	font-weight: 700;
 	font-size: 36px;
@@ -73,25 +95,34 @@ body{
 .introduction{
 	background-color: var(--exyra-bg-color);
 	letter-spacing: 0.06em;
+	text-align: center;
 }
 .introduction-title{
+	margin-bottom: 30px;
 	color: var(--primary-bg-color);
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
 	text-transform: uppercase;
-	text-align: center;
 }
 .button{
+	border-radius: 4px;
+	border: none;
+	display: inline-block;
+	padding: 10px 32px;
+	min-width: 200px;
+
 	color: var(--primary-bg-color);
 	background-color: var(--accent-color);
 	font-family: inherit;
 	letter-spacing: 0.06em;
 	cursor: pointer;
+	text-align: center;
 }
 
 /* company */
 .company-subtitle{
+	margin-bottom: 10px;
 	color:var(--title-text-color);
 	font-weight: 700;
 	font-size: 14px;
@@ -117,6 +148,8 @@ footer{
 	background-color: var(--exyra-bg-color);
 }
 .footer-logo{
+	display: inline-block;
+	margin-bottom: 20px;
 	color: var(--primary-bg-color);
 }
 .address-link{
@@ -137,6 +170,11 @@ footer{
 /* portgolio */
 
 .btn-nav{
+	display: inline-block;
+	border-radius: 4px;
+	padding: 6px 22px;
+	border: none;
+	min-width: 73px;
 	color: var(--title-text-color);
 	background-color:rgba(245, 244, 250, 1);
 	font-family: inherit;
@@ -144,6 +182,7 @@ footer{
 	font-size: 16px;
 	line-height: 1.63;
 	cursor: pointer;
+	text-align: center;
 }
 
 .btn-nav:hover,
@@ -153,6 +192,8 @@ footer{
 }
 
 .portfolio-subtitle{
+	margin-top: 10px;
+	margin-bottom: 4px;
 	color: var(--title-text-color);
 	font-weight: 700;
 	font-size: 18px;
